@@ -30,13 +30,12 @@ class _homeState extends State<home> {
     return Scaffold(
       body: Column(
         children: [
-          Expanded(
-            child: Signature(
-              controller: controller,
-              backgroundColor: Colors.white,
-            ),
+          Signature(
+            controller: controller,
+            backgroundColor: Colors.white,
           ),
           Container(
+            color: Colors.white,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
